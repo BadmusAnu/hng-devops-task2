@@ -1,12 +1,12 @@
 version: '3.4'
 services:
   frontend:
-    image: hng-frontend
+    image: badmusanu/hng-frontend
     ports:
       - "3000:3000"
 
   backend:
-    image: hng-backend
+    image: badmusanu/hng-backend
     ports:
       - "8000:8000"
   
