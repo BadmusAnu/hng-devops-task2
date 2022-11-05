@@ -16,12 +16,14 @@ You are to update your name in ./frontend/components/App.js
 ```json
 npm i
 npm start
+npm run build
 ```
 
 ## For deploying
 
 ```json
-npm run build
+docker-compose up -d
+NB: Image Architecture is Linux, arm64 (M1/M2 chip) to build for a amd64 chip please recompile Dockerfile
 ```
 
 It should look like this if successful
